@@ -1,0 +1,131 @@
+///main
+???[|SetBGM,assets/music/Chords.m4a;SetBG,assets/images/delusion.png]:Delusion.
+???[|]:Psychosis.
+???[|]:Irrationality.
+???[|]:Those are the words I can use to explain the recent events.
+???[|]:The world has benefited heavily from technoaccelerationism.
+???[|]:Many advances have made life better.
+???[|]:But it's all a dystopia. It's a facade. A mimicry of a impossible, perfect world.
+???[.2|SetBranch,day-start]:Today is the day you wake up, Fuka.
+///day-start
+Fuka[.2|SetBGM,assets/music/cozy/Cuddle Clouds.mp3;SetBG,assets/images/awake.png]:Good morning.
+Mona[|]:Good morning, darling. Did you know I love you very very very much?
+Fuka[|]:Hehe...with how much you tell me that, of course I do!
+Fuka[|]:What day is it today?
+Mona[|]:Hmmm... I'm not sure, but that's what we have ARUDEBAISU for anyways
+Mona[|]:I always get surprised that the only things that aren't robots in our house are us. Everything is automated now.
+Mona[|]:It wasn't like this just 5 years ago.
+Fuka[|]:You're right.
+Fuka[|]:What day is it, ARUDEBAISU?
+ARUDEBAISU[|]:It is Saturday, the 25th of November 2044. It is 10:37 AM.
+Fuka[|]:I wanna stay in bed but...
+Fuka[|]:I should get up, it's well into the morning.
+Mona[|]:I'll rest a little more...
+...[|]:Fuka gets up and goes to the bathroom.
+Fuka[.2|SetBG,assets/images/bathroom.png]:...?
+Fuka[|]:Nevermind.
+...[|]:Fuka splashes her face with water.
+Fuka[|]:Something feels off today.
+Fuka[|]:I don't know what it is. I just feel a little weird.
+Fuka[|]:I'm not the most mentally sound, so I guess it isn't that weird I feel like this.
+...[|]:Fuka brushes her teeth.
+...[|]:...
+...[|]:Fuka spits.
+...[|]:...
+Fuka[|SetBG,assets/images/shower.png]:Now for a shower...
+Fuka[|]:...
+Fuka[|]:I still feel odd...
+Fuka[|]:I feel this weird aura in my head...
+Fuka[|]:...My head... my head... my head...
+Fuka[|SetBG,assets/images/shower_insane.png;SetBGM,assets/music/Chords.m4a]:AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Fuka[|]:AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Fuka[|]:AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Fuka[|]:AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+???[0.2|SetBG,assets/images/delusion.png]:Hello, Fuka.
+???[|]:You haven't waken up yet, have you?
+???[|]:The sooner you realize, the better.
+???[|]:Your life, the world, will all be better once you wake up.
+...[|]:...
+Mona[|SetBG,assets/images/awake.png]:Honey? Are you zoning out again?
+Mona[|]:Honey?
+Fuka[|]:Agh!
+Fuka[|SetBGM,assets/music/cozy/Cuddle Clouds.mp3]:Sorry... I'm not sure what happened.
+Mona[|]:It's alright, honey. You didn't have dinner yesterday and you slept late, so it might just be that.
+Mona[|]:I'm going to make your favorite for breakfast.
+Mona[|]:Well, make it if selecting it on ARUCOOK counts as making food.
+Mona[|]:Bacon, scrambled eggs, sausages and toast with jam.
+Mona[|]:So, lets get out of bed, shall we?
+Fuka[|]:Yeah.
+...[|SetBG,assets/images/bathroom.png]:Fuka goes to the bathroom...
+...[|]:...Brushes her teeth...
+...[|SetBG,assets/images/shower.png]:...And takes a shower...
+...[|]:...With a sense of slight paranoia enveloping her.
+...[|]:"What if that happens again?"
+...[|]:...Luckily for her, it didn't.
+...[|]:Fuka finishes her shower, puts on fresh clothes, and goes to the dining room.
+Mona[|SetBG,assets/images/food.png]:Here's your food, darling!
+Fuka[|]:Thank you. I love you so much.
+Mona[|]:I love you too.
+...[|]:Fuka eats her breakfast.
+Fuka[|]:It was delicious. Your ability to finetune ARUCOOK is amazing.
+Mona[|]:Practice makes perfect!
+Fuka[|]:Do we have groceries?
+Mona[|]:Let me check...
+Mona[|]:We're running out. Do you want me to go get groceries?
+Fuka[|]:No, it's fine. I'll go myself.
+Mona[|]:Are you sure? You've been zoning out more often these past few days.
+Fuka[|]:I'll be fine, don't worry.
+Mona[|]:If you say so.
+...[|]:Fuka takes her wallet.
+...[|SetBG,assets/images/door.png]:Fuka faces the door...
+...[|SetBG,assets/images/init.png]:...And goes outside.
+Fuka[|]:...
+Fuka[|]:I wonder what all these episodes are.
+Fuka[|]:Why are they happening?
+Fuka[|]:Strange dreams too...
+Fuka[|]:Flower smells for $3... I should get Mona some.
+Fuka[|]:Let me get my wallet out.
+???[.2|SetBG,assets/images/init_insane.png]:...
+...[|SetBG,assets/images/attack.png;SetBGM,assets/music/DarkForest.m4a]:Fuka's head gets bashed into the wall, leaving a trail of blood.
+Fuka[|]:WHAT THE FUCK!
+Fuka[|]:HOLY FUCKING SHIT THAT HURTS
+Fuka[|SetBG,assets/images/wake_up.png]:Who the fuck are you? Why did you do that
+???[|]:I needed to make you wake you up.
+???[|Choice,Wake up,realization;Choice,Don't wake up,main]:You need to wake up.
+///realization
+...[|SetBG,assets/images/awake.png]:Fuka wakes up at home.
+Fuka[|]:Fuck...
+Fuka[|]:Huh... I'm home?
+Fuka[|]:I'm still bleeding, shit.
+Fuka[|]:Mona?
+Fuka[|]:Mona??
+Mona[.2|]:CHIP RESTARTING...
+Fuka[|]:...
+Fuka[|]:Huh?
+Fuka[|]:What? What? What? What the fuck? Mona?
+Fuka[|]:MONA???????? MONA?????
+Mona[.2|]:CHIP FAILED TO BOOT UP...
+Fuka[|]:What?????
+Fuka[|]:Mona??? Where are you?
+Fuka[|]:You just... disappeared??? Mona????
+Fuka[|]:MONA????????
+Fuka[|]:What the fuck??????
+Fuka[|]:AGH
+Fuka[|]:Fuck... my head... my head... my h...
+Fuka[.001|]:igy h ruyhi h4t uh  hu3485ih0 0 8vghb i reh ifrgt vi c ixdf cirg igt ihi gfi  higrt ii fdi hefc h
+akuF[.001|]: あるうｙｆん５うｂぎｂｇｙん５７つぎｎｙｈ６７う９にｔｆｂｔんｊｆｄｈじぇづえづわういうぁうわううあうｗｂふｔんぎぃｊｔｒ
+kguhdyrgvgrnhycfbvjhntjgrnfbhjcngvthbnyjnfd[.001]:Fuka
+[|]:
+...[|]:...
+...[|]:...
+...[|]:...
+...[|]:...
+...[|]:... 
+Fuka[|]:I'm awake now. I get it now.
+Fuka[|]:This isn't real. This love wasn't ever real. It's artificial. It's fake. It's manufactured. My memories too.
+Fuka[|]:I feel............................so sick.
+Fuka[|]:I'm a needy girl... I can't do anything if Mona isn't here...
+Fuka[|]:And she'll never be, because she never even was real.
+Fuka[|]:She was just a fucking chip in my head.
+Fuka[|]:...
+[|End]:
